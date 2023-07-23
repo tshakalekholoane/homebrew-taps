@@ -1,8 +1,8 @@
 class Can < Formula
   desc "macOS command-line utility that provides an alternative to the rm command"
   homepage "https://tshaka.dev/x/can"
-  url "https://github.com/tshakalekholoane/can/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "c81a316b4483a5cb90b9b6bbb1f6b331a2ee5f45fc4a815512f1775f980c79db"
+  url "https://github.com/tshakalekholoane/can/archive/refs/tags/0.1.1.tar.gz"
+  sha256 "e281571c3a51fb2b4e2717cb2f6e9ef905c92a10fbc25bc1d9c1635223301897"
   license "ISC"
 
   def install
