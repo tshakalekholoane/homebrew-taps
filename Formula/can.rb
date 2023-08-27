@@ -6,7 +6,7 @@ class Can < Formula
   license "ISC"
 
   def install
-    system ENV.cc, "-framework", "Foundation", "-O3", "-o", "can", "src/main.c"
+    system ENV.cc, "-framework", "Foundation", "-O3", "-march=native", "-o", "can", "src/main.c"
     bin.install "can"
   end
 end
